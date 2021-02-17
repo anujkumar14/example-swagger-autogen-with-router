@@ -36,15 +36,8 @@
       "get": {
         "tags": [],
         "description": "",
-        "produces": [
-          "application/json"
-        ],
         "parameters": [],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
+        "responses": {}
       }
     },
     "/test-post": {
@@ -63,19 +56,8 @@
       "delete": {
         "tags": [],
         "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "No Content"
-          }
-        }
+        "parameters": [],
+        "responses": {}
       }
     },
     "/signin": {

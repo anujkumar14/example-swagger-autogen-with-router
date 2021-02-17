@@ -1,6 +1,5 @@
-
 const express = require('express')
-const ToolsController = require('./controllers/ToolsController')
+const ToolsController = require('./controllers/VarController')
 
 const router = express.Router()
 
