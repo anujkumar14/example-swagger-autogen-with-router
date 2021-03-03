@@ -52,14 +52,6 @@
         }
       }
     },
-    "/test-delete/{id}": {
-      "delete": {
-        "tags": [],
-        "description": "",
-        "parameters": [],
-        "responses": {}
-      }
-    },
     "/signin": {
       "post": {
         "tags": [

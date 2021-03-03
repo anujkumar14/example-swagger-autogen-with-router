@@ -1,5 +1,5 @@
 const express = require('express')
-const ToolsController = require('./controllers/VarController')
+const AdminController = require('./controllers/admin')
 
 const router = express.Router()
 
@@ -9,9 +9,8 @@ const apiV2 = require('./controllers/ApiRoute2')
 router.use(apiV1)
 router.use('/v2', apiV2)
 
-router.get('/test-get', ToolsController.show)
+router.get('/test-get', AdminController.show)
 router.post('/test-post', store)
-router.delete('/test-delete/:id', ToolsController.delete)
 
 function store(req, res) {
     const tools = {}
